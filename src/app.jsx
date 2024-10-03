@@ -1,15 +1,8 @@
-import { ThemeProvider } from "styled-components";
-import { theme } from "./theme";
+import React from 'react'
+import { Outlet } from 'react-router-dom'
 
 function App() {
-	return (
-		<ThemeProvider theme={theme}>
-			<div>
-				<h1>My App</h1>
-				<p>My app is running!</p>
-			</div>
-		</ThemeProvider>
-	);
+  return (<Outlet/>)
 }
 
-export default App;
+export default App
