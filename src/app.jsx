@@ -1,7 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 
-function app() {
+function App() {
   return (
     <>
         <Outlet/>
@@ -9,4 +9,4 @@ function app() {
   )
 }
 
-export default app
+export default App
